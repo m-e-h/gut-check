@@ -1,0 +1,19 @@
+{
+	"name": "gut-check",
+	"version": "0.1.0",
+	"description": "WP Theme for CSS debugging",
+	"author": "Marty Helmick",
+	"license": "GPL-2.0+",
+	"homepage": "https://github.com/m-e-h/gut-check",
+	"scripts": {
+		"css": "npm run css:editor && npm run css:editorDepth",
+		"css:editor": "postcss css/pesticide.css --use=postcss-editor-styles -o css/e-pesticide.css --no-map",
+		"css:editorDepth": "postcss css/pesticide-depth.css --use=postcss-editor-styles -o css/e-pesticide-depth.css --no-map"
+	},
+	"devDependencies": {
+		"postcss-cli": "^6.1.1",
+		"postcss-editor-styles": "^0.1.4",
+		"postcss-import": "^12.0.1",
+		"postcss-preset-env": "^6.5.0"
+	}
+}

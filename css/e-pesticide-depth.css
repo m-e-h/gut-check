@@ -1,0 +1,498 @@
+/*
+    pesticide v1.0.0 . @mrmrs . MIT
+*/
+.editor-styles-wrapper {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper article {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper nav {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper aside {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper section {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper header {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper footer {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper h1 {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper h2 {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper h3 {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper h4 {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper h5 {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper h6 {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper main {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper address {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper div {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper p {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper hr {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper pre {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper blockquote {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper ol {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper ul {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper li {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper dl {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper dt {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper dd {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper figure {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper figcaption {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper table {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper caption {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper thead {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper tbody {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper tfoot {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper tr {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper th {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper td {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper col {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper colgroup {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper button:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper datalist {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper fieldset {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper form:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper input:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper keygen {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper label:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper legend {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper meter {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper optgroup {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper option {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper output {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper progress {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper select:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper textarea:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper details {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper summary {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper command {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper menu {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper del {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper ins {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper img {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper iframe {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper embed {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper object {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper param {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper video {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper audio {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper source {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper canvas {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper track {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper map {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper area {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper a:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper em {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper strong {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper i {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper b {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper u {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper s {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper small {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper abbr {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper q {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper cite {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper dfn {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper sub {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper sup {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper time {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper code {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper kbd {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper samp {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper var {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper mark {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper bdi {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper bdo {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper ruby {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper rt {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper rp {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper span {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper br {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}
+.editor-styles-wrapper wbr {
+  -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  background-color: rgba(255,255,255,0.25);
+}

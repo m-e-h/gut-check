@@ -1,0 +1,299 @@
+/*
+    pesticide v1.3.0 . @mrmrs . MIT
+*/
+.editor-styles-wrapper {
+  outline: 1px solid #2980b9 !important; }
+
+.editor-styles-wrapper article {
+  outline: 1px solid #3498db !important; }
+
+.editor-styles-wrapper nav {
+  outline: 1px solid #0088c3 !important; }
+
+.editor-styles-wrapper aside {
+  outline: 1px solid #33a0ce !important; }
+
+.editor-styles-wrapper section {
+  outline: 1px solid #66b8da !important; }
+
+.editor-styles-wrapper header {
+  outline: 1px solid #99cfe7 !important; }
+
+.editor-styles-wrapper footer {
+  outline: 1px solid #cce7f3 !important; }
+
+.editor-styles-wrapper h1 {
+  outline: 1px solid #162544 !important; }
+
+.editor-styles-wrapper h2 {
+  outline: 1px solid #314e6e !important; }
+
+.editor-styles-wrapper h3 {
+  outline: 1px solid #3e5e85 !important; }
+
+.editor-styles-wrapper h4 {
+  outline: 1px solid #449baf !important; }
+
+.editor-styles-wrapper h5 {
+  outline: 1px solid #c7d1cb !important; }
+
+.editor-styles-wrapper h6 {
+  outline: 1px solid #4371d0 !important; }
+
+.editor-styles-wrapper main {
+  outline: 1px solid #2f4f90 !important; }
+
+.editor-styles-wrapper address {
+  outline: 1px solid #1a2c51 !important; }
+
+.editor-styles-wrapper div {
+  outline: 1px solid #036cdb !important; }
+
+.editor-styles-wrapper p {
+  outline: 1px solid #ac050b !important; }
+
+.editor-styles-wrapper hr {
+  outline: 1px solid #ff063f !important; }
+
+.editor-styles-wrapper pre {
+  outline: 1px solid #850440 !important; }
+
+.editor-styles-wrapper blockquote {
+  outline: 1px solid #f1b8e7 !important; }
+
+.editor-styles-wrapper ol {
+  outline: 1px solid #ff050c !important; }
+
+.editor-styles-wrapper ul {
+  outline: 1px solid #d90416 !important; }
+
+.editor-styles-wrapper li {
+  outline: 1px solid #d90416 !important; }
+
+.editor-styles-wrapper dl {
+  outline: 1px solid #fd3427 !important; }
+
+.editor-styles-wrapper dt {
+  outline: 1px solid #ff0043 !important; }
+
+.editor-styles-wrapper dd {
+  outline: 1px solid #e80174 !important; }
+
+.editor-styles-wrapper figure {
+  outline: 1px solid #ff00bb !important; }
+
+.editor-styles-wrapper figcaption {
+  outline: 1px solid #bf0032 !important; }
+
+.editor-styles-wrapper table {
+  outline: 1px solid #00cc99 !important; }
+
+.editor-styles-wrapper caption {
+  outline: 1px solid #37ffc4 !important; }
+
+.editor-styles-wrapper thead {
+  outline: 1px solid #98daca !important; }
+
+.editor-styles-wrapper tbody {
+  outline: 1px solid #64a7a0 !important; }
+
+.editor-styles-wrapper tfoot {
+  outline: 1px solid #22746b !important; }
+
+.editor-styles-wrapper tr {
+  outline: 1px solid #86c0b2 !important; }
+
+.editor-styles-wrapper th {
+  outline: 1px solid #a1e7d6 !important; }
+
+.editor-styles-wrapper td {
+  outline: 1px solid #3f5a54 !important; }
+
+.editor-styles-wrapper col {
+  outline: 1px solid #6c9a8f !important; }
+
+.editor-styles-wrapper colgroup {
+  outline: 1px solid #6c9a9d !important; }
+
+.editor-styles-wrapper button:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  outline: 1px solid #da8301 !important; }
+
+.editor-styles-wrapper datalist {
+  outline: 1px solid #c06000 !important; }
+
+.editor-styles-wrapper fieldset {
+  outline: 1px solid #d95100 !important; }
+
+.editor-styles-wrapper form:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  outline: 1px solid #d23600 !important; }
+
+.editor-styles-wrapper input:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  outline: 1px solid #fca600 !important; }
+
+.editor-styles-wrapper keygen {
+  outline: 1px solid #b31e00 !important; }
+
+.editor-styles-wrapper label:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  outline: 1px solid #ee8900 !important; }
+
+.editor-styles-wrapper legend {
+  outline: 1px solid #de6d00 !important; }
+
+.editor-styles-wrapper meter {
+  outline: 1px solid #e8630c !important; }
+
+.editor-styles-wrapper optgroup {
+  outline: 1px solid #b33600 !important; }
+
+.editor-styles-wrapper option {
+  outline: 1px solid #ff8a00 !important; }
+
+.editor-styles-wrapper output {
+  outline: 1px solid #ff9619 !important; }
+
+.editor-styles-wrapper progress {
+  outline: 1px solid #e57c00 !important; }
+
+.editor-styles-wrapper select:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  outline: 1px solid #e26e0f !important; }
+
+.editor-styles-wrapper textarea:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  outline: 1px solid #cc5400 !important; }
+
+.editor-styles-wrapper details {
+  outline: 1px solid #33848f !important; }
+
+.editor-styles-wrapper summary {
+  outline: 1px solid #60a1a6 !important; }
+
+.editor-styles-wrapper command {
+  outline: 1px solid #438da1 !important; }
+
+.editor-styles-wrapper menu {
+  outline: 1px solid #449da6 !important; }
+
+.editor-styles-wrapper del {
+  outline: 1px solid #bf0000 !important; }
+
+.editor-styles-wrapper ins {
+  outline: 1px solid #400000 !important; }
+
+.editor-styles-wrapper img {
+  outline: 1px solid #22746b !important; }
+
+.editor-styles-wrapper iframe {
+  outline: 1px solid #64a7a0 !important; }
+
+.editor-styles-wrapper embed {
+  outline: 1px solid #98daca !important; }
+
+.editor-styles-wrapper object {
+  outline: 1px solid #00cc99 !important; }
+
+.editor-styles-wrapper param {
+  outline: 1px solid #37ffc4 !important; }
+
+.editor-styles-wrapper video {
+  outline: 1px solid #6ee866 !important; }
+
+.editor-styles-wrapper audio {
+  outline: 1px solid #027353 !important; }
+
+.editor-styles-wrapper source {
+  outline: 1px solid #012426 !important; }
+
+.editor-styles-wrapper canvas {
+  outline: 1px solid #a2f570 !important; }
+
+.editor-styles-wrapper track {
+  outline: 1px solid #59a600 !important; }
+
+.editor-styles-wrapper map {
+  outline: 1px solid #7be500 !important; }
+
+.editor-styles-wrapper area {
+  outline: 1px solid #305900 !important; }
+
+.editor-styles-wrapper a:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+  outline: 1px solid #ff62ab !important; }
+
+.editor-styles-wrapper em {
+  outline: 1px solid #800b41 !important; }
+
+.editor-styles-wrapper strong {
+  outline: 1px solid #ff1583 !important; }
+
+.editor-styles-wrapper i {
+  outline: 1px solid #803156 !important; }
+
+.editor-styles-wrapper b {
+  outline: 1px solid #cc1169 !important; }
+
+.editor-styles-wrapper u {
+  outline: 1px solid #ff0430 !important; }
+
+.editor-styles-wrapper s {
+  outline: 1px solid #f805e3 !important; }
+
+.editor-styles-wrapper small {
+  outline: 1px solid #d107b2 !important; }
+
+.editor-styles-wrapper abbr {
+  outline: 1px solid #4a0263 !important; }
+
+.editor-styles-wrapper q {
+  outline: 1px solid #240018 !important; }
+
+.editor-styles-wrapper cite {
+  outline: 1px solid #64003c !important; }
+
+.editor-styles-wrapper dfn {
+  outline: 1px solid #b4005a !important; }
+
+.editor-styles-wrapper sub {
+  outline: 1px solid #dba0c8 !important; }
+
+.editor-styles-wrapper sup {
+  outline: 1px solid #cc0256 !important; }
+
+.editor-styles-wrapper time {
+  outline: 1px solid #d6606d !important; }
+
+.editor-styles-wrapper code {
+  outline: 1px solid #e04251 !important; }
+
+.editor-styles-wrapper kbd {
+  outline: 1px solid #5e001f !important; }
+
+.editor-styles-wrapper samp {
+  outline: 1px solid #9c0033 !important; }
+
+.editor-styles-wrapper var {
+  outline: 1px solid #d90047 !important; }
+
+.editor-styles-wrapper mark {
+  outline: 1px solid #ff0053 !important; }
+
+.editor-styles-wrapper bdi {
+  outline: 1px solid #bf3668 !important; }
+
+.editor-styles-wrapper bdo {
+  outline: 1px solid #6f1400 !important; }
+
+.editor-styles-wrapper ruby {
+  outline: 1px solid #ff7b93 !important; }
+
+.editor-styles-wrapper rt {
+  outline: 1px solid #ff2f54 !important; }
+
+.editor-styles-wrapper rp {
+  outline: 1px solid #803e49 !important; }
+
+.editor-styles-wrapper span {
+  outline: 1px solid #cc2643 !important; }
+
+.editor-styles-wrapper br {
+  outline: 1px solid #db687d !important; }
+
+.editor-styles-wrapper wbr {
+  outline: 1px solid #db175b !important; }
