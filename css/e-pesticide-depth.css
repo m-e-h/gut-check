@@ -76,7 +76,7 @@
   box-shadow: 0 0 1rem rgba(0,0,0,0.6);
   background-color: rgba(255,255,255,0.25);
 }
-.editor-styles-wrapper div {
+.editor-styles-wrapper div:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
   -webkit-box-shadow: 0 0 1rem rgba(0,0,0,0.6);
   box-shadow: 0 0 1rem rgba(0,0,0,0.6);
   background-color: rgba(255,255,255,0.25);

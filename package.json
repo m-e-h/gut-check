@@ -7,8 +7,8 @@
 	"homepage": "https://github.com/m-e-h/gut-check",
 	"scripts": {
 		"css": "npm run css:editor && npm run css:editorDepth",
-		"css:editor": "postcss css/pesticide.css --use=postcss-editor-styles -o css/e-pesticide.css --no-map",
-		"css:editorDepth": "postcss css/pesticide-depth.css --use=postcss-editor-styles -o css/e-pesticide-depth.css --no-map"
+		"css:editor": "postcss css/pesticide.css -o css/e-pesticide.css --env editor",
+		"css:editorDepth": "postcss css/pesticide-depth.css -o css/e-pesticide-depth.css --env editor"
 	},
 	"devDependencies": {
 		"postcss-cli": "^6.1.1",
