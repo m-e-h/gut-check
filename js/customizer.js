@@ -49,6 +49,12 @@ wp.customize("header_textcolor", value => {
 	});
 });
 
+wp.customize("gc_outline_width", value => {
+	value.bind(to => {
+		setVariable("--gc-outline-width", `${to}px`);
+	});
+});
+
 wp.customize("gc_shadow_depth", value => {
 	value.bind(to => {
 		setVariable("--gc-shadow-depth", `${to}rem`);
