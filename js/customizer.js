@@ -6,37 +6,51 @@
  * Contains handlers to make Theme Customizer preview reload changes asynchronously.
  */
 
-( function( $ ) {
+const siteTitle = document.querySelector(".site-title");
+const siteDesc = document.querySelector(".site-description");
 
-	// Site title and description.
-	wp.customize( 'blogname', function( value ) {
-		value.bind( function( to ) {
-			$( '.site-title a' ).text( to );
-		} );
-	} );
-	wp.customize( 'blogdescription', function( value ) {
-		value.bind( function( to ) {
-			$( '.site-description' ).text( to );
-		} );
-	} );
+// https://googlechrome.github.io/samples/css-custom-properties/
+// Auxiliary method. Sets the value of a custom property at the document level.
+const setVariable = function(propertyName, value) {
+	document.documentElement.style.setProperty(propertyName, value);
+};
 
-	// Header text color.
-	wp.customize( 'header_textcolor', function( value ) {
-		value.bind( function( to ) {
-			if ( 'blank' === to ) {
-				$( '.site-title, .site-description' ).css( {
-					'clip': 'rect(1px, 1px, 1px, 1px)',
-					'position': 'absolute'
-				} );
+// Site title.
+wp.customize("blogname", value => {
+	value.bind(to => {
+		siteTitle.textContent = to;
+	});
+});
+
+// Site description.
+wp.customize("blogdescription", value => {
+	value.bind(to => {
+		siteDesc.textContent = to;
+	});
+});
+
+// Header text color.
+wp.customize("header_textcolor", value => {
+	value.bind(to => {
+		setVariable("--header-text-color", to);
+
+		let headerText = [siteTitle, siteDesc];
+
+		headerText.forEach(text => {
+			if ("blank" === to) {
+				text.style.clip = "rect(0 0 0 0)";
+				text.style.position = "absolute";
 			} else {
-				$( '.site-title, .site-description' ).css( {
-					'clip': 'auto',
-					'position': 'relative'
-				} );
-				$( '.site-title a, .site-description' ).css( {
-					'color': to
-				} );
+				text.style.color = to;
+				text.style.clip = "auto";
+				text.style.position = "relative";
 			}
-		} );
-	} );
-} )( jQuery );
+		});
+	});
+});
+
+wp.customize("gc_shadow_depth", value => {
+	value.bind(to => {
+		setVariable("--gc-shadow-depth", `${to}rem`);
+	});
+});

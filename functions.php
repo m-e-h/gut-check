@@ -7,46 +7,6 @@
  * @package Gut_Check
  */
 
-/**
- * Enqueue debugging scripts and styles.
- */
-function gut_check_debug_front_styles() {
-
-	if ( get_theme_mod( 'front_pesticide' ) ) {
-
-		if ( get_theme_mod( 'css_pesticide' ) ) {
-			wp_enqueue_style( 'pesticide', get_parent_theme_file_uri( 'css/pesticide.css' ) );
-		}
-
-		if ( get_theme_mod( 'css_pesticide_depth' ) ) {
-			wp_enqueue_style( 'pesticide-depth', get_parent_theme_file_uri( 'css/pesticide-depth.css' ) );
-		}
-	}
-
-}
-add_action( 'wp_enqueue_scripts', 'gut_check_debug_front_styles' );
-
-/**
- * Enqueue editor debugging scripts and styles.
- */
-function gut_check_debug_edit_styles() {
-
-	if ( get_theme_mod( 'editor_pesticide' ) ) {
-
-		if ( get_theme_mod( 'css_pesticide' ) ) {
-			wp_enqueue_style( 'pesticide-edit', get_parent_theme_file_uri( 'css/e-pesticide.css' ), null, null );
-		}
-
-		if ( get_theme_mod( 'css_pesticide_depth' ) ) {
-			wp_enqueue_style( 'pesticide-depth', get_parent_theme_file_uri( 'css/e-pesticide-depth.css' ), null, null );
-		}
-	}
-
-	// wp_enqueue_style( 'gut-check-edit-styles', get_theme_file_uri( 'style.css' ), null, null );
-
-}
-add_action( 'enqueue_block_editor_assets', 'gut_check_debug_edit_styles' );
-
 function gut_check_setup() {
 
 		// // Load regular editor styles into the new block-based editor.
@@ -218,3 +178,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/**
+ * Load Gut Check.
+ */
+require get_template_directory() . '/inc/gc-debug-functions.php';

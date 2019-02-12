@@ -1,0 +1,10 @@
+.gc-shadow-range {
+	width: 100%;
+}
+
+.gc-shadow-output {
+	display: block;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: bolder;
+}
