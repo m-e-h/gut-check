@@ -133,7 +133,7 @@ function gut_check_debug_customize_register( $wp_customize )
             array(
                 'label'   => 'Outline Width',
                 'min'     => 0,
-                'max'     => 8,
+                'max'     => 10,
                 'step'    => 1,
                 'section' => 'style_debug',
             )
@@ -155,7 +155,7 @@ function gut_check_debug_customize_register( $wp_customize )
             array(
                 'label'   => 'Shadow Depth',
                 'min'     => 0,
-                'max'     => 4,
+                'max'     => 5,
                 'step'    => 0.25,
                 'section' => 'style_debug',
             )
@@ -202,8 +202,6 @@ if (class_exists('WP_Customize_Control') ) {
             <span class="customize-control-title"><?php echo esc_html($this->label); ?></span>
 
             <?php echo "<input id='{$this->id}' type='range' class='{$this->id}' min='{$this->min}' max='{$this->max}' step='{$this->step}' value='{$this->value()}' oninput='{$this->id}_output.value = {$this->id}.value'"; ?><?php $this->link(); ?>>
-
-            <br>
 
             <?php echo "<output id='{$this->id}_output' class='{$this->id}_output'>{$this->value()}</output>"; ?>
         </label>
