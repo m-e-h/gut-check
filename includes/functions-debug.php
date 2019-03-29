@@ -8,6 +8,7 @@
 namespace GutCheck;
 
 add_action( 'init', __NAMESPACE__ . '\\setup' );
+
 /**
  * Setup the plugin.
  */

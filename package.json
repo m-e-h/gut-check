@@ -1,13 +1,13 @@
 {
 	"name": "gut-check",
 	"version": "0.1.0",
-	"description": "WP Theme for CSS debugging",
+	"description": "WP Plugin for CSS debugging",
 	"author": "Marty Helmick",
 	"license": "GPL-2.0+",
 	"homepage": "https://github.com/m-e-h/gut-check",
 	"scripts": {
 		"build": "npm run css:editor",
-		"css:editor": "postcss css/pesticide.css -o css/e-pesticide.css --env editor"
+		"css:editor": "postcss assets/pesticide.css -o assets/e-pesticide.css --env editor"
 	},
 	"devDependencies": {
 		"eslint": "^5.15.3",
