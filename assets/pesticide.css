@@ -12,7 +12,6 @@
 
 body {
 	box-shadow: var(--gc-box-shadow);
-	background-color: var(--gc-background);
 	outline-width: var(--gc-outline-width) !important;
 	outline-style: var(--gc-outline-style) !important;
 	outline-color: #2980b9 !important;
