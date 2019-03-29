@@ -1,2 +1,2 @@
 # gut-check
-WP Theme for CSS debugging
+WP Plugin for CSS debugging
