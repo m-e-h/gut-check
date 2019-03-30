@@ -6,7 +6,8 @@
 	--gc-outline-width: 1px;
 	--gc-outline-style: solid;
 	--gc-shadow-depth: 1rem;
-	--gc-box-shadow: 0 0 var(--gc-shadow-depth) rgba(0, 0, 0, 0.6);
+	--gc-shadow-color: rgba(0, 0, 0, 0.6);
+	--gc-box-shadow: 0 0 var(--gc-shadow-depth) var(--gc-shadow-color);
 	--gc-background: rgba(255, 255, 255, 0.25);
 }
 

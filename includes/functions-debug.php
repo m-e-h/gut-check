@@ -8,6 +8,7 @@
 namespace GutCheck;
 
 add_action( 'init', __NAMESPACE__ . '\\setup' );
+use WP_Customize_Color_Control;
 
 /**
  * Setup the plugin.
@@ -54,36 +55,25 @@ function gut_check_debug_edit_styles() {
  * CSS Custom Properties inlined.
  */
 function gut_check_debug_vars() {
-	$outline_width = get_theme_mod( 'gc_outline_width', '0' );
-	$shadow_depth  = get_theme_mod( 'gc_shadow_depth', '0' );
-
-	$style_var  = '';
-	$style_var .= "--gc-outline-width:{$outline_width}px;";
-	$style_var .= "--gc-shadow-depth:{$shadow_depth}rem;";
-
-	/* Put the final style output together. */
-	$style = "
-	<style data-style='gc-customized'>
-		:root:root{ {$style_var} }
-	</style>
-	";
-
-	/* Output custom style. */
-	echo $style;
+	echo get_gut_check_debug_vars();
 }
 
 function get_gut_check_debug_vars() {
 	$outline_width = get_theme_mod( 'gc_outline_width', '0' );
 	$shadow_depth  = get_theme_mod( 'gc_shadow_depth', '0' );
+	$shadow_hex    = get_theme_mod( 'gc_shadow_color', '000' );
+	$shadow_rgb    = implode( ', ', hex_to_rgb( $shadow_hex ) );
+	$shadow_color  = $shadow_rgb;
 
 	$style_var  = '';
 	$style_var .= "--gc-outline-width:{$outline_width}px;";
 	$style_var .= "--gc-shadow-depth:{$shadow_depth}rem;";
+	$style_var .= "--gc-shadow-color:rgba({$shadow_color}, 0.5);";
 
 	/* Put the final style output together. */
 	$style = "
 	<style data-style='gc-customized'>
-		:root{ {$style_var} }
+		:root:root{ {$style_var} }
 	</style>
 	";
 
@@ -215,6 +205,27 @@ function gut_check_debug_customize_register( $wp_customize ) {
 		)
 	);
 
+	$wp_customize->add_setting(
+		'gc_shadow_color',
+		[
+			'default'           => '#ffffff',
+			'transport'         => 'postMessage',
+			'sanitize_callback' => 'sanitize_hex_color',
+		]
+	);
+
+	$wp_customize->add_control(
+		new WP_Customize_Color_Control(
+			$wp_customize,
+			'gc_shadow_color',
+			[
+				'label'    => __( 'Shadow Color' ),
+				'section'  => 'style_debug',
+				'settings' => 'gc_shadow_color',
+			]
+		)
+	);
+
 }
 
 /**
@@ -222,4 +233,52 @@ function gut_check_debug_customize_register( $wp_customize ) {
  */
 function gut_check_customize_preview_js() {
 	wp_enqueue_script( 'gut-check-customizer', GC_ASSETS . 'customizer.js', array( 'customize-preview' ), false, true );
+}
+
+function sanitize_hex_color_add_hash( $color ) {
+	if ( $unhashed = sanitize_hex_color_no_hash( $color ) ) {
+		return '#' . $unhashed;
+	}
+
+	return sanitize_hex_color( $color );
+}
+
+/**
+ * Converts a hex color to RGB.  Returns the RGB values as an array.
+ *
+ * @param string    hex
+ * @return array    rgb value
+ */
+function hex_to_rgb( $hex ) {
+
+	$color = trim( $hex, '#' );
+
+	if ( strlen( $color ) == 3 ) {
+
+		$r = hexdec( $color[0] . $color[0] );
+		$g = hexdec( $color[1] . $color[1] );
+		$b = hexdec( $color[2] . $color[2] );
+
+	} elseif ( strlen( $color ) == 6 ) {
+
+		$r = hexdec( $color[0] . $color[1] );
+		$g = hexdec( $color[2] . $color[3] );
+		$b = hexdec( $color[4] . $color[5] );
+
+	} elseif ( strlen( $color ) == 8 ) {
+
+		$r = hexdec( $color[0] . $color[1] );
+		$g = hexdec( $color[2] . $color[3] );
+		$b = hexdec( $color[4] . $color[5] );
+		$a = hexdec( $color[6] . $color[7] );
+
+		return [ $r, $g, $b, $a ];
+
+	} else {
+
+		return [];
+
+	}
+
+	return [ $r, $g, $b ];
 }
