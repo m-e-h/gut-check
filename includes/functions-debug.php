@@ -40,6 +40,7 @@ function gut_check_debug_edit_styles() {
 	if ( get_theme_mod( 'editor_pesticide' ) ) {
 
 		wp_enqueue_style( 'pesticide-edit', GC_ASSETS . 'e-pesticide.css' );
+		wp_add_inline_style( 'pesticide-editor-customizer-styles', gut_check_debug_vars() );
 	}
 
 	if ( get_theme_mod( 'editor_ui_pesticide' ) ) {
@@ -63,15 +64,32 @@ function gut_check_debug_vars() {
 	/* Put the final style output together. */
 	$style = "
 	<style data-style='gc-customized'>
-		:root{ {$style_var} }
+		:root:root{ {$style_var} }
 	</style>
 	";
 
 	/* Output custom style. */
 	echo $style;
-
 }
 
+function get_gut_check_debug_vars() {
+	$outline_width = get_theme_mod( 'gc_outline_width', '0' );
+	$shadow_depth  = get_theme_mod( 'gc_shadow_depth', '0' );
+
+	$style_var  = '';
+	$style_var .= "--gc-outline-width:{$outline_width}px;";
+	$style_var .= "--gc-shadow-depth:{$shadow_depth}rem;";
+
+	/* Put the final style output together. */
+	$style = "
+	<style data-style='gc-customized'>
+		:root{ {$style_var} }
+	</style>
+	";
+
+	/* Output custom style. */
+	return $style;
+}
 
 
 /**
