@@ -1,0 +1,243 @@
+/* Inline text semantics */
+:not(#\9) a,
+:not(#\9) abbr,
+:not(#\9) b,
+:not(#\9) bdi,
+:not(#\9) bdo,
+:not(#\9) br,
+:not(#\9) cite,
+:not(#\9) code,
+:not(#\9) data,
+:not(#\9) del,
+:not(#\9) dfn,
+:not(#\9) em,
+:not(#\9) i,
+:not(#\9) ins,
+:not(#\9) kbd,
+:not(#\9) mark,
+:not(#\9) q,
+:not(#\9) rb,
+:not(#\9) rp,
+:not(#\9) rt,
+:not(#\9) rtc,
+:not(#\9) ruby,
+:not(#\9) s,
+:not(#\9) samp,
+:not(#\9) small,
+:not(#\9) span,
+:not(#\9) strong,
+:not(#\9) sub,
+:not(#\9) sup,
+:not(#\9) time,
+:not(#\9) tt,
+:not(#\9) u,
+:not(#\9) var,
+:not(#\9) wbr {
+	--gc-outline-color: var(--solar-orange);
+	--gc-background: var(--background-light);
+}
+/* Inline text semantics */
+:not(#\9) a {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) abbr {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) b {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) bdi {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) bdo {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) br {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) cite {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) code {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) data {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) del {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) dfn {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) em {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) i {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) ins {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) kbd {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) mark {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) q {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) rb {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) rp {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) rt {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) rtc {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) ruby {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) s {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) samp {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) small {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) span {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) strong {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) sub {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) sup {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) time {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) tt {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) u {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) var {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) wbr {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}

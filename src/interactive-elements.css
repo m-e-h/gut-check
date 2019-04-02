@@ -1,0 +1,51 @@
+/* Interactive elements */
+details,
+dialog,
+menu,
+menuitem,
+summary {
+	--gc-outline-color: var(--solar-green);
+	--gc-background: var(--background-lighter);
+}
+
+div:not([class]),
+span:not([class]) {
+	--gc-outline-color: var(--content-gray2);
+}
+
+#wpadminbar {
+	--gc-outline-width: 0;
+	--gc-box-shadow: none;
+}
+
+/* Interactive elements */
+details {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+dialog {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+menu {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+menuitem {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+summary {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}

@@ -1,0 +1,37 @@
+:root {
+	--gc-outline-width: 1px;
+	--gc-outline-style: solid;
+	--gc-outline-color: var(--content-gray2);
+	--gc-shadow-depth: 1rem;
+	--gc-shadow-color: rgba(0, 43, 54, 0.6);
+	--gc-box-shadow: 0 0 var(--gc-shadow-depth) var(--gc-shadow-color);
+	--gc-background: var(--background-light);
+	--gc-background-a: rgba(238, 232, 213, 0.1);
+
+	/* Solorized colors. MIT https://ethanschoonover.com/solarized/ */
+	--solar-base03:    #002b36;
+	--solar-base02:    #073642;
+	--solar-base01:    #586e75;
+	--solar-base00:    #657b83;
+	--solar-base0:     #839496;
+	--solar-base1:     #93a1a1;
+	--solar-base2:     #eee8d5;
+	--solar-base3:     #fdf6e3;
+	--solar-yellow:    #b58900;
+	--solar-orange:    #cb4b16;
+	--solar-red:       #dc322f;
+	--solar-magenta:   #d33682;
+	--solar-violet:    #6c71c4;
+	--solar-blue:      #268bd2;
+	--solar-cyan:      #2aa198;
+	--solar-green:     #859900;
+
+	--background-dark: var(--solar-base02);
+	--background-darker: var(--solar-base03);
+	--background-light: var(--solar-base2);
+	--background-lighter: var(--solar-base3);
+	--content-gray1: var(--solar-base1);
+	--content-gray2: var(--solar-base0);
+	--content-gray3: var(--solar-base00);
+	--content-gray4: var(--solar-base01);
+}

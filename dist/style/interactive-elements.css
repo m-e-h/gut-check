@@ -1,0 +1,48 @@
+/* Interactive elements */
+:not(#\9) details,
+:not(#\9) dialog,
+:not(#\9) menu,
+:not(#\9) menuitem,
+:not(#\9) summary {
+	--gc-outline-color: var(--solar-green);
+	--gc-background: var(--background-lighter);
+}
+:not(#\9) div:not([class]),
+:not(#\9) span:not([class]) {
+	--gc-outline-color: var(--content-gray2);
+}
+:not(#\9) #wpadminbar {
+	--gc-outline-width: 0;
+	--gc-box-shadow: none;
+}
+/* Interactive elements */
+:not(#\9) details {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) dialog {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) menu {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) menuitem {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) summary {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}

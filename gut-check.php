@@ -21,7 +21,7 @@ if ( ! defined( 'GC_INCLUDES' ) ) {
 }
 
 if ( ! defined( 'GC_ASSETS' ) ) {
-	define( 'GC_ASSETS', plugin_dir_url( __FILE__ ) . 'assets/' );
+	define( 'GC_ASSETS', plugin_dir_url( __FILE__ ) . 'dist/' );
 }
 
 require_once( GC_INCLUDES . 'functions-debug.php' );

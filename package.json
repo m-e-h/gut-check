@@ -6,8 +6,9 @@
 	"license": "GPL-2.0+",
 	"homepage": "https://github.com/m-e-h/gut-check",
 	"scripts": {
-		"build": "npm run css:editor",
-		"css:editor": "postcss assets/pesticide.css -o assets/e-pesticide.css --env editor"
+		"build": "npm run css && npm run css:editor",
+		"css": "postcss src --dir dist/style",
+		"css:editor": "postcss src --dir dist/editor --env editor"
 	},
 	"devDependencies": {
 		"eslint": "^5.15.3",

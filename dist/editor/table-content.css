@@ -1,0 +1,75 @@
+/* Table content */
+.editor-styles-wrapper caption,
+.editor-styles-wrapper col,
+.editor-styles-wrapper colgroup,
+.editor-styles-wrapper table,
+.editor-styles-wrapper tbody,
+.editor-styles-wrapper td,
+.editor-styles-wrapper tfoot,
+.editor-styles-wrapper th,
+.editor-styles-wrapper thead,
+.editor-styles-wrapper tr {
+	--gc-outline-color: var(--solar-violet);
+	--gc-background: var(--background-lighter);
+}
+/* Table content */
+.editor-styles-wrapper caption {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper col {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper colgroup {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper table {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper tbody {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper td {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper tfoot {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper th {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper thead {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper tr {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
