@@ -12,21 +12,24 @@
  */
 
 
-// namespace GutCheck;
+namespace GutCheck;
 
 defined( 'ABSPATH' ) || exit;
 
 if ( ! defined( 'GC_INCLUDES' ) ) {
-	define( 'GC_INCLUDES', plugin_dir_path( __FILE__ ) . 'includes/');
+	define( 'GC_INCLUDES', plugin_dir_path( __FILE__ ) . 'includes/' );
 }
 
 if ( ! defined( 'GC_ASSETS' ) ) {
 	define( 'GC_ASSETS', plugin_dir_url( __FILE__ ) . 'dist/' );
 }
 
-require_once( GC_INCLUDES . 'functions-debug.php' );
+require_once( GC_INCLUDES . 'functions.php' );
+require_once( GC_INCLUDES . 'functions-customize.php' );
+require_once( GC_INCLUDES . 'functions-scripts.php' );
 
 add_action( 'after_setup_theme', function() {
 	\GutCheck\setup();
 });
 
+//add_action( 'init', __NAMESPACE__ . '\\setup' );
