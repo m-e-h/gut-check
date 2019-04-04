@@ -1,0 +1,75 @@
+/* Media and embedded */
+.editor-styles-wrapper area,
+.editor-styles-wrapper audio,
+.editor-styles-wrapper img,
+.editor-styles-wrapper map,
+.editor-styles-wrapper track,
+.editor-styles-wrapper video,
+.editor-styles-wrapper embed,
+.editor-styles-wrapper iframe,
+.editor-styles-wrapper object,
+.editor-styles-wrapper picture {
+	--gc-outline-color: var(--gc-media-color);
+	--gc-background: var(--background-lighter);
+}
+/* Media and embedded */
+.editor-styles-wrapper area {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper audio {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper img {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper map {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper track {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper video {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper embed {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper iframe {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper object {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+.editor-styles-wrapper picture {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}

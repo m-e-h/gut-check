@@ -1,0 +1,75 @@
+/* Media and embedded */
+:not(#\9) area,
+:not(#\9) audio,
+:not(#\9) img,
+:not(#\9) map,
+:not(#\9) track,
+:not(#\9) video,
+:not(#\9) embed,
+:not(#\9) iframe,
+:not(#\9) object,
+:not(#\9) picture {
+	--gc-outline-color: var(--gc-media-color);
+	--gc-background: var(--background-lighter);
+}
+/* Media and embedded */
+:not(#\9) area {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) audio {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) img {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) map {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) track {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) video {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) embed {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) iframe {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) object {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#\9) picture {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
