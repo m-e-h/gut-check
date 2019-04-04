@@ -1,23 +1,23 @@
 /* Forms */
-.editor-styles-wrapper button:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
+.editor-styles-wrapper button:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
 .editor-styles-wrapper datalist,
 .editor-styles-wrapper fieldset,
-.editor-styles-wrapper form:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
-.editor-styles-wrapper input:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
-.editor-styles-wrapper label:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
+.editor-styles-wrapper form:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
+.editor-styles-wrapper input:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
+.editor-styles-wrapper label:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
 .editor-styles-wrapper legend,
 .editor-styles-wrapper meter,
 .editor-styles-wrapper optgroup,
 .editor-styles-wrapper option,
 .editor-styles-wrapper output,
 .editor-styles-wrapper progress,
-.editor-styles-wrapper select:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
-.editor-styles-wrapper textarea:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
-	--gc-outline-color: var(--solar-cyan);
+.editor-styles-wrapper select:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
+.editor-styles-wrapper textarea:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+	--gc-outline-color: var(--gc-forms-color);
 	--gc-background: var(--background-light);
 }
 /* Forms */
-.editor-styles-wrapper button:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+.editor-styles-wrapper button:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
@@ -35,19 +35,19 @@
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-.editor-styles-wrapper form:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+.editor-styles-wrapper form:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-.editor-styles-wrapper input:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+.editor-styles-wrapper input:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-.editor-styles-wrapper label:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+.editor-styles-wrapper label:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
@@ -89,13 +89,13 @@
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-.editor-styles-wrapper select:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+.editor-styles-wrapper select:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-.editor-styles-wrapper textarea:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+.editor-styles-wrapper textarea:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);

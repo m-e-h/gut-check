@@ -1,14 +1,14 @@
 {
 	"name": "gut-check",
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"description": "WP Plugin for CSS debugging",
 	"author": "Marty Helmick",
 	"license": "GPL-2.0+",
 	"homepage": "https://github.com/m-e-h/gut-check",
 	"scripts": {
 		"build": "npm run css && npm run css:editor",
-		"css": "postcss src --dir dist/style",
-		"css:editor": "postcss src --dir dist/editor --env editor"
+		"css": "postcss src/css --dir dist/style",
+		"css:editor": "postcss src/css --dir dist/editor --env editor"
 	},
 	"devDependencies": {
 		"eslint": "^5.15.3",

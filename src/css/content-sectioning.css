@@ -14,7 +14,7 @@ hgroup,
 main,
 nav,
 section {
-	--gc-outline-color: var(--solar-blue);
+	--gc-outline-color: var(--gc-content-color);
 	--gc-background: var(--background-light);
 }
 

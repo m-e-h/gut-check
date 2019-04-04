@@ -3,7 +3,7 @@
  * Plugin Name: Gut Check
  * Plugin URI:  https://github.com/m-e-h/gut-check
  * Description: CSS debugger
- * Version:     0.1.0
+ * Version:     1.0.0
  * Author:      Marty Helmick
  * Author URI:  https://github.com/m-e-h
  * Text Domain: gut-check
@@ -14,22 +14,19 @@
 
 namespace GutCheck;
 
-defined( 'ABSPATH' ) || exit;
-
-if ( ! defined( 'GC_INCLUDES' ) ) {
-	define( 'GC_INCLUDES', plugin_dir_path( __FILE__ ) . 'includes/' );
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
-if ( ! defined( 'GC_ASSETS' ) ) {
-	define( 'GC_ASSETS', plugin_dir_url( __FILE__ ) . 'dist/' );
-}
+define( 'GUT_CHECK_VERSION', '1.0.0' );
 
-require_once( GC_INCLUDES . 'functions.php' );
-require_once( GC_INCLUDES . 'functions-customize.php' );
-require_once( GC_INCLUDES . 'functions-scripts.php' );
+define( 'GC_INCLUDES', plugin_dir_path( __FILE__ ) . 'includes/' );
+define( 'GC_ASSETS', plugin_dir_url( __FILE__ ) . 'dist/' );
+
+require_once GC_INCLUDES . 'functions-scripts.php';
+require_once GC_INCLUDES . 'functions-helpers.php';
+require_once GC_INCLUDES . 'functions-customize.php';
 
 add_action( 'after_setup_theme', function() {
 	\GutCheck\setup();
 });
-
-//add_action( 'init', __NAMESPACE__ . '\\setup' );

@@ -33,7 +33,7 @@
 :not(#\9) u,
 :not(#\9) var,
 :not(#\9) wbr {
-	--gc-outline-color: var(--solar-orange);
+	--gc-outline-color: var(--gc-inline-color);
 	--gc-background: var(--background-light);
 }
 /* Inline text semantics */

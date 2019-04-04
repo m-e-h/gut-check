@@ -1,5 +1,5 @@
 /* Inline text semantics */
-.editor-styles-wrapper a:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
+.editor-styles-wrapper a:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
 .editor-styles-wrapper abbr,
 .editor-styles-wrapper b,
 .editor-styles-wrapper bdi,
@@ -24,7 +24,7 @@
 .editor-styles-wrapper s,
 .editor-styles-wrapper samp,
 .editor-styles-wrapper small,
-.editor-styles-wrapper span,
+.editor-styles-wrapper span:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
 .editor-styles-wrapper strong,
 .editor-styles-wrapper sub,
 .editor-styles-wrapper sup,
@@ -33,11 +33,11 @@
 .editor-styles-wrapper u,
 .editor-styles-wrapper var,
 .editor-styles-wrapper wbr {
-	--gc-outline-color: var(--solar-orange);
+	--gc-outline-color: var(--gc-inline-color);
 	--gc-background: var(--background-light);
 }
 /* Inline text semantics */
-.editor-styles-wrapper a:not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+.editor-styles-wrapper a:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
@@ -187,7 +187,7 @@
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-.editor-styles-wrapper span {
+.editor-styles-wrapper span:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);

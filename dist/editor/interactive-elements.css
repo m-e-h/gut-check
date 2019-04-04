@@ -4,16 +4,8 @@
 .editor-styles-wrapper menu,
 .editor-styles-wrapper menuitem,
 .editor-styles-wrapper summary {
-	--gc-outline-color: var(--solar-green);
+	--gc-outline-color: var(--gc-interactive-color);
 	--gc-background: var(--background-lighter);
-}
-.editor-styles-wrapper div:not([class]),
-.editor-styles-wrapper span:not([class]) {
-	--gc-outline-color: var(--content-gray2);
-}
-.editor-styles-wrapper #wpadminbar {
-	--gc-outline-width: 0;
-	--gc-box-shadow: none;
 }
 /* Interactive elements */
 .editor-styles-wrapper details {

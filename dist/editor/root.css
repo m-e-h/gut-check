@@ -26,12 +26,34 @@
 	--solar-cyan:      #2aa198;
 	--solar-green:     #859900;
 
+	/* Color by section */
+	--outline-alpha: 80%;
+	--gc-content-color: rgba(38, 139, 210, 0.8);
+	--gc-forms-color: rgba(42, 161, 152, 0.8);
+	--gc-media-color: rgba(220, 50, 47, 0.8);
+	--gc-inline-color: rgba(203, 75, 22, 0.8);
+	--gc-interactive-color: rgba(133, 153, 0, 0.8);
+	--gc-table-color: rgba(108, 113, 196, 0.8);
+	--gc-text-color: rgba(181, 137, 0, 0.8);
+
 	--background-dark: var(--solar-base02);
 	--background-darker: var(--solar-base03);
 	--background-light: var(--solar-base2);
 	--background-lighter: var(--solar-base3);
-	--content-gray1: var(--solar-base1);
-	--content-gray2: var(--solar-base0);
-	--content-gray3: var(--solar-base00);
-	--content-gray4: var(--solar-base01);
+	--gray-light: rgba(147, 161, 161, 0.8);
+	--gray-dark: var(--solar-base01);
+}
+
+.editor-styles-wrapper .clear {
+    opacity: 0;
+}
+
+.editor-styles-wrapper #wpbody {
+    min-height: 100%;
+}
+
+.editor-styles-wrapper #wpadminbar#wpadminbar {
+	--gc-outline-width: 0;
+	--gc-box-shadow: none;
+	--gc-background-lg: none;
 }

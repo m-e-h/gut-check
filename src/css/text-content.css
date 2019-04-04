@@ -14,7 +14,7 @@ ol,
 p,
 pre,
 ul {
-	--gc-outline-color: var(--solar-yellow);
+	--gc-outline-color: var(--gc-text-color);
 	--gc-background: var(--background-lighter);
 }
 
@@ -108,4 +108,9 @@ ul {
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
+}
+
+:not(#\9) div:not([class]),
+span:not([class]) {
+	--gc-outline-color: var(--gray-light);
 }

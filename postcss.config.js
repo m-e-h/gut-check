@@ -19,8 +19,10 @@ module.exports = ctx => ({
 							'select',
 							'textarea',
 							'form',
-							'div'
-						]
+							'div',
+							'span'
+						],
+						tagSuffix: ':not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"])'
 				  }
 				: {
 						scopeTo: ':not(#\\9)',
@@ -28,7 +30,7 @@ module.exports = ctx => ({
 						repeat: 1,
 						remove: [],
 						replace: [],
-						ignore: [':root','html','body'],
+						ignore: [':root','html','body','#wpadminbar','#wpbody','.clear'],
 						tagSuffix: ''
 				  }
 	}

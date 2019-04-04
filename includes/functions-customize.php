@@ -22,18 +22,18 @@ function gut_check_debug_customize_register( $wp_customize ) {
 		]
 	);
 
-	/* Add the pesticide setting. */
+	/* Add the gut_check setting. */
 	$wp_customize->add_setting(
-		'front_pesticide',
+		'front_gut_check',
 		[
 			'default'           => 1,
 			'sanitize_callback' => 'absint',
 		]
 	);
 
-	/* Add the pesticide control. */
+	/* Add the gut_check control. */
 	$wp_customize->add_control(
-		'front_pesticide',
+		'front_gut_check',
 		[
 			'label'   => __( 'Debug Front-End CSS', 'gut-check' ),
 			'section' => 'style_debug',
@@ -41,19 +41,19 @@ function gut_check_debug_customize_register( $wp_customize ) {
 		]
 	);
 
-	/* Add the pesticide setting. */
+	/* Add the gut_check setting. */
 	$wp_customize->add_setting(
-		'editor_pesticide',
+		'editor_gut_check',
 		[
-			'default'           => 1,
+			'default'           => 0,
 			'sanitize_callback' => 'absint',
 			'transport'         => 'postMessage',
 		]
 	);
 
-	/* Add the pesticide control. */
+	/* Add the gut_check control. */
 	$wp_customize->add_control(
-		'editor_pesticide',
+		'editor_gut_check',
 		[
 			'label'   => __( 'Debug Editor Theme CSS', 'gut-check' ),
 			'section' => 'style_debug',
@@ -61,27 +61,28 @@ function gut_check_debug_customize_register( $wp_customize ) {
 		]
 	);
 
-	/* Add the pesticide setting. */
+	/* Add the gut_check setting. */
 	$wp_customize->add_setting(
-		'editor_ui_pesticide',
+		'editor_ui_gut_check',
 		[
-			'default'           => 1,
+			'default'           => 0,
 			'sanitize_callback' => 'absint',
 			'transport'         => 'postMessage',
 		]
 	);
 
-	/* Add the pesticide control. */
+	/* Add the gut_check control. */
 	$wp_customize->add_control(
-		'editor_ui_pesticide',
+		'editor_ui_gut_check',
 		[
 			'label'   => __( 'Debug Editor UI CSS', 'gut-check' ),
+			'description' => __( 'Useful for block development.' ),
 			'section' => 'style_debug',
 			'type'    => 'checkbox',
 		]
 	);
 
-	/* Add the pesticide setting. */
+	/* Add the gut_check setting. */
 	$wp_customize->add_setting(
 		'gc_outline_width',
 		[
@@ -108,7 +109,7 @@ function gut_check_debug_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'gc_shadow_depth',
 		[
-			'default'   => 0,
+			'default'   => 0.25,
 			'transport' => 'postMessage',
 		]
 	);
@@ -218,7 +219,7 @@ function gut_check_debug_customize_register( $wp_customize ) {
 
 	/* Image and multimedia. */
 	$wp_customize->add_setting(
-		'image_multimedia',
+		'media_embedded',
 		[
 			'default'           => 1,
 			'sanitize_callback' => 'absint',
@@ -226,29 +227,10 @@ function gut_check_debug_customize_register( $wp_customize ) {
 	);
 
 	$wp_customize->add_control(
-		'image_multimedia',
+		'media_embedded',
 		[
-			'label'   => __( 'Image and multimedia', 'gut-check' ),
-			'description' => __( 'area, audio, img, map, track, video' ),
-			'section' => 'style_debug',
-			'type'    => 'checkbox',
-		]
-	);
-
-	/* Embedded content. */
-	$wp_customize->add_setting(
-		'embedded_content',
-		[
-			'default'           => 1,
-			'sanitize_callback' => 'absint',
-		]
-	);
-
-	$wp_customize->add_control(
-		'embedded_content',
-		[
-			'label'   => __( 'Embedded content', 'gut-check' ),
-			'description' => __( 'embed, iframe, object, picture' ),
+			'label'   => __( 'Media & embedded content', 'gut-check' ),
+			'description' => __( 'area, audio, img, video, embed, iframe, object, picture, map, track' ),
 			'section' => 'style_debug',
 			'type'    => 'checkbox',
 		]
@@ -310,4 +292,31 @@ function gut_check_debug_customize_register( $wp_customize ) {
 			'type'        => 'checkbox',
 		]
 	);
+}
+
+/**
+ * Bolder checkbox labels
+ */
+function customizer_control_styles() {
+	$style = '
+	<style>
+	#sub-accordion-section-style_debug .customize-control-checkbox label {
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 600;
+		margin-bottom: 4px;
+		display: inline-block;
+	}
+	</style>
+	';
+
+	/* Output custom style. */
+	echo $style;
+}
+
+/**
+ * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
+ */
+function gut_check_customize_preview_js() {
+	wp_enqueue_script( 'gut-check-customizer', GC_ASSETS . 'customizer.js', [ 'customize-preview' ], false, true );
 }

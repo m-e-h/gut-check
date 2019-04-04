@@ -13,7 +13,7 @@
 :not(#\9) progress,
 :not(#\9) select,
 :not(#\9) textarea {
-	--gc-outline-color: var(--solar-cyan);
+	--gc-outline-color: var(--gc-forms-color);
 	--gc-background: var(--background-light);
 }
 /* Forms */

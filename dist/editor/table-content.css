@@ -9,7 +9,7 @@
 .editor-styles-wrapper th,
 .editor-styles-wrapper thead,
 .editor-styles-wrapper tr {
-	--gc-outline-color: var(--solar-violet);
+	--gc-outline-color: var(--gc-table-color);
 	--gc-background: var(--background-lighter);
 }
 /* Table content */
