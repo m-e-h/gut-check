@@ -47,6 +47,7 @@ function gut_check_debug_e_vars() {
 
 	$style = "
 	<style data-style='gc-customized'>
+		:root .components-toolbar div:not([class]),
 		:root .block-editor-block-toolbar div:not([class]) {
 			--gc-outline-width: 0;
 			--gc-box-shadow: none;
