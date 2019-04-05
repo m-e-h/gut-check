@@ -45,7 +45,7 @@ function gut_check_debug_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'editor_gut_check',
 		[
-			'default'           => 0,
+			'default'           => 1,
 			'sanitize_callback' => 'absint',
 			'transport'         => 'postMessage',
 		]

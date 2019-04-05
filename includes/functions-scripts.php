@@ -161,7 +161,7 @@ function gut_check_debug_edit_styles() {
 
 			wp_enqueue_style( 'e-table_content', GC_ASSETS . 'style/table-content.css' );
 		}
-	} elseif ( get_theme_mod( 'editor_gut_check', 0 ) ) {
+	} elseif ( get_theme_mod( 'editor_gut_check', 1 ) ) {
 
 		wp_enqueue_style( 'root_vars', GC_ASSETS . 'editor/root.css' );
 		wp_add_inline_style( 'root_vars', gut_check_debug_vars() );
