@@ -34,7 +34,6 @@
 .editor-styles-wrapper var,
 .editor-styles-wrapper wbr {
 	--gc-outline-color: var(--gc-inline-color);
-	--gc-background: var(--background-light);
 }
 /* Inline text semantics */
 .editor-styles-wrapper a:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {

@@ -1,110 +1,223 @@
 /* Content sectioning */
-:not(#\9) address,
-:not(#\9) article,
-:not(#\9) aside,
-:not(#\9) footer,
-:not(#\9) header,
-:not(#\9) h1,
-:not(#\9) h2,
-:not(#\9) h3,
-:not(#\9) h4,
-:not(#\9) h5,
-:not(#\9) h6,
-:not(#\9) hgroup,
-:not(#\9) main,
-:not(#\9) nav,
-:not(#\9) section {
+:not(#gc-clear) address,
+:not(#gc-clear) article,
+:not(#gc-clear) aside,
+:not(#gc-clear) footer,
+:not(#gc-clear) header,
+:not(#gc-clear) h1,
+:not(#gc-clear) h2,
+:not(#gc-clear) h3,
+:not(#gc-clear) h4,
+:not(#gc-clear) h5,
+:not(#gc-clear) h6,
+:not(#gc-clear) hgroup,
+:not(#gc-clear) main,
+:not(#gc-clear) nav,
+:not(#gc-clear) section {
 	--gc-outline-color: var(--gc-content-color);
-	--gc-background: var(--background-light);
+}
+/* Text content */
+:not(#gc-clear) blockquote,
+:not(#gc-clear) dd,
+:not(#gc-clear) dir,
+:not(#gc-clear) div,
+:not(#gc-clear) dl,
+:not(#gc-clear) dt,
+:not(#gc-clear) figcaption,
+:not(#gc-clear) figure,
+:not(#gc-clear) hr,
+:not(#gc-clear) li,
+:not(#gc-clear) main,
+:not(#gc-clear) ol,
+:not(#gc-clear) p,
+:not(#gc-clear) pre,
+:not(#gc-clear) ul {
+	--gc-outline-color: var(--gc-text-color);
 }
 /* Content sectioning */
-:not(#\9) address {
+:not(#gc-clear) address {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) article {
+:not(#gc-clear) article {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) aside {
+:not(#gc-clear) aside {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) footer {
+:not(#gc-clear) footer {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) header {
+:not(#gc-clear) header {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) h1 {
+:not(#gc-clear) h1 {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) h2 {
+:not(#gc-clear) h2 {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) h3 {
+:not(#gc-clear) h3 {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) h4 {
+:not(#gc-clear) h4 {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) h5 {
+:not(#gc-clear) h5 {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) h6 {
+:not(#gc-clear) h6 {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) hgroup {
+:not(#gc-clear) hgroup {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) main {
+:not(#gc-clear) main {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) nav {
+:not(#gc-clear) nav {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) section {
+:not(#gc-clear) section {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
+}
+/* Text content */
+:not(#gc-clear) blockquote {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) dd {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) dir {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) dl {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) dt {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) figcaption {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) figure {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) hr {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) li {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) main {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) ol {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) p {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) pre {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) ul {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+/* div elements */
+:not(#gc-clear) div {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) div:not([class]),
+:not(#gc-clear) span:not([class]) {
+	--gc-outline-color: var(--gray-light);
 }

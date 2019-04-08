@@ -25,7 +25,7 @@ module.exports = ctx => ({
 						tagSuffix: ':not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"])'
 				  }
 				: {
-						scopeTo: ':not(#\\9)',
+						scopeTo: ':not(#gc-clear)',
 						tags: [],
 						repeat: 1,
 						remove: [],

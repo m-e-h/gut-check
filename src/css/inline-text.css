@@ -34,7 +34,6 @@ u,
 var,
 wbr {
 	--gc-outline-color: var(--gc-inline-color);
-	--gc-background: var(--background-light);
 }
 
 /* Inline text semantics */

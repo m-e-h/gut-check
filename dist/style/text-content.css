@@ -2,7 +2,6 @@
 :not(#\9) blockquote,
 :not(#\9) dd,
 :not(#\9) dir,
-:not(#\9) div,
 :not(#\9) dl,
 :not(#\9) dt,
 :not(#\9) figcaption,
@@ -31,12 +30,6 @@
 	outline-color: var(--gc-outline-color);
 }
 :not(#\9) dir {
-	box-shadow: var(--gc-box-shadow);
-	outline-width: var(--gc-outline-width);
-	outline-style: var(--gc-outline-style);
-	outline-color: var(--gc-outline-color);
-}
-:not(#\9) div {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
@@ -107,8 +100,4 @@
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
-}
-:not(#\9),
-:not(#\9) span:not([class]) {
-	--gc-outline-color: var(--gray-light);
 }

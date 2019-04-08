@@ -5,14 +5,32 @@
  * @package Gut_Check
  */
 
-namespace GutCheck;
+namespace GutCheck\Customize;
 
 use WP_Customize_Color_Control;
 
 /**
+ * Setup the customizer.
+ */
+function bootstrap() {
+	add_action( 'customize_register', __NAMESPACE__ . '\\register_controls' );
+	add_action( 'customize_preview_init', __NAMESPACE__ . '\\load_preview_js' );
+	add_action('customize_controls_print_styles', __NAMESPACE__ . '\\inline_control_css');
+}
+
+/**
+ * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
+ */
+function load_preview_js() {
+	wp_enqueue_script( 'gut-check-customizer', GC_ASSETS . 'customizer.js', [ 'customize-preview' ], false, true );
+}
+
+
+
+/**
  * Add debug settings to the Theme Customizer.
  */
-function gut_check_debug_customize_register( $wp_customize ) {
+function register_controls( $wp_customize ) {
 
 	/* Add the debug section. */
 	$wp_customize->add_section(
@@ -173,26 +191,7 @@ function gut_check_debug_customize_register( $wp_customize ) {
 		'content_sectioning',
 		[
 			'label'   => __( 'Content sectioning', 'gut-check' ),
-			'description' => __( 'address, article, aside, footer, header, h1, h2, h3, h4, h5, h6, hgroup, main, nav, section' ),
-			'section' => 'style_debug',
-			'type'    => 'checkbox',
-		]
-	);
-
-	/* Text content. */
-	$wp_customize->add_setting(
-		'text_content',
-		[
-			'default'           => 1,
-			'sanitize_callback' => 'absint',
-		]
-	);
-
-	$wp_customize->add_control(
-		'text_content',
-		[
-			'label'   => __( 'Text content', 'gut-check' ),
-			'description' => __( 'blockquote, dd, dir, div, dl, dt, figcaption, figure, hr, li, main, ol, p, pre, ul' ),
+			'description' => __( 'address, article, aside, footer, header, h1, h2, h3, h4, h5, h6, hgroup, main, nav, section, blockquote, dd, dir, div, dl, dt, figcaption, figure, hr, li, main, ol, p, pre, ul' ),
 			'section' => 'style_debug',
 			'type'    => 'checkbox',
 		]
@@ -255,7 +254,7 @@ function gut_check_debug_customize_register( $wp_customize ) {
 		]
 	);
 
-	/* Forms. */
+	/* Forms & Interactive elements. */
 	$wp_customize->add_setting(
 		'form_elements',
 		[
@@ -267,29 +266,10 @@ function gut_check_debug_customize_register( $wp_customize ) {
 	$wp_customize->add_control(
 		'form_elements',
 		[
-			'label'   => __( 'Forms', 'gut-check' ),
-			'description' => __( 'button, datalist, fieldset, form, input, label, legend, meter, optgroup, option, output, progress, select, textarea' ),
+			'label'   => __( 'Forms & Interactive elements', 'gut-check' ),
+			'description' => __( 'button, datalist, fieldset, form, input, label, legend, meter, optgroup, option, output, progress, select, textarea, details, dialog, menu, menuitem, summary' ),
 			'section' => 'style_debug',
 			'type'    => 'checkbox',
-		]
-	);
-
-	/* Interactive elements. */
-	$wp_customize->add_setting(
-		'interactive_elements',
-		[
-			'default'           => 1,
-			'sanitize_callback' => 'absint',
-		]
-	);
-
-	$wp_customize->add_control(
-		'interactive_elements',
-		[
-			'label'       => __( 'Interactive elements', 'gut-check' ),
-			'description' => __( 'details, dialog, menu, menuitem, summary' ),
-			'section'     => 'style_debug',
-			'type'        => 'checkbox',
 		]
 	);
 }
@@ -297,7 +277,7 @@ function gut_check_debug_customize_register( $wp_customize ) {
 /**
  * Bolder checkbox labels
  */
-function customizer_control_styles() {
+function inline_control_css() {
 	$style = '
 	<style>
 	#sub-accordion-section-style_debug .customize-control-checkbox label {
@@ -314,9 +294,3 @@ function customizer_control_styles() {
 	echo $style;
 }
 
-/**
- * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
- */
-function gut_check_customize_preview_js() {
-	wp_enqueue_script( 'gut-check-customizer', GC_ASSETS . 'customizer.js', [ 'customize-preview' ], false, true );
-}

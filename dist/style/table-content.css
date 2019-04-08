@@ -1,73 +1,72 @@
 /* Table content */
-:not(#\9) caption,
-:not(#\9) col,
-:not(#\9) colgroup,
-:not(#\9) table,
-:not(#\9) tbody,
-:not(#\9) td,
-:not(#\9) tfoot,
-:not(#\9) th,
-:not(#\9) thead,
-:not(#\9) tr {
+:not(#gc-clear) caption,
+:not(#gc-clear) col,
+:not(#gc-clear) colgroup,
+:not(#gc-clear) table,
+:not(#gc-clear) tbody,
+:not(#gc-clear) td,
+:not(#gc-clear) tfoot,
+:not(#gc-clear) th,
+:not(#gc-clear) thead,
+:not(#gc-clear) tr {
 	--gc-outline-color: var(--gc-table-color);
-	--gc-background: var(--background-lighter);
 }
 /* Table content */
-:not(#\9) caption {
+:not(#gc-clear) caption {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) col {
+:not(#gc-clear) col {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) colgroup {
+:not(#gc-clear) colgroup {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) table {
+:not(#gc-clear) table {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) tbody {
+:not(#gc-clear) tbody {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) td {
+:not(#gc-clear) td {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) tfoot {
+:not(#gc-clear) tfoot {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) th {
+:not(#gc-clear) th {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) thead {
+:not(#gc-clear) thead {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) tr {
+:not(#gc-clear) tr {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);

@@ -5,7 +5,7 @@
  * @package Gut_Check
  */
 
-namespace GutCheck;
+namespace GutCheck\Helpers;
 
 /**
  * Converts a hex color to RGB.  Returns the RGB values as an array.

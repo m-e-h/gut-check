@@ -1,40 +1,20 @@
-/* Interactive elements */
-.editor-styles-wrapper details,
-.editor-styles-wrapper dialog,
-.editor-styles-wrapper menu,
-.editor-styles-wrapper menuitem,
-.editor-styles-wrapper summary {
-	--gc-outline-color: var(--gc-interactive-color);
+/* div elements */
+
+.editor-styles-wrapper div:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
+	--gc-outline-color: var(--gc-div-color);
 	--gc-background: var(--background-lighter);
 }
-/* Interactive elements */
-.editor-styles-wrapper details {
+
+/* div elements */
+
+.editor-styles-wrapper div:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-.editor-styles-wrapper dialog {
-	box-shadow: var(--gc-box-shadow);
-	outline-width: var(--gc-outline-width);
-	outline-style: var(--gc-outline-style);
-	outline-color: var(--gc-outline-color);
-}
-.editor-styles-wrapper menu {
-	box-shadow: var(--gc-box-shadow);
-	outline-width: var(--gc-outline-width);
-	outline-style: var(--gc-outline-style);
-	outline-color: var(--gc-outline-color);
-}
-.editor-styles-wrapper menuitem {
-	box-shadow: var(--gc-box-shadow);
-	outline-width: var(--gc-outline-width);
-	outline-style: var(--gc-outline-style);
-	outline-color: var(--gc-outline-color);
-}
-.editor-styles-wrapper summary {
-	box-shadow: var(--gc-box-shadow);
-	outline-width: var(--gc-outline-width);
-	outline-style: var(--gc-outline-style);
-	outline-color: var(--gc-outline-color);
+
+.editor-styles-wrapper div:not([class]),
+.editor-styles-wrapper span:not([class]) {
+	--gc-outline-color: var(--gray-light);
 }

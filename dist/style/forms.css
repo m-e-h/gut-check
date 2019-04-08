@@ -1,101 +1,139 @@
 /* Forms */
-:not(#\9) button,
-:not(#\9) datalist,
-:not(#\9) fieldset,
-:not(#\9) form,
-:not(#\9) input,
-:not(#\9) label,
-:not(#\9) legend,
-:not(#\9) meter,
-:not(#\9) optgroup,
-:not(#\9) option,
-:not(#\9) output,
-:not(#\9) progress,
-:not(#\9) select,
-:not(#\9) textarea {
+:not(#gc-clear) button,
+:not(#gc-clear) datalist,
+:not(#gc-clear) fieldset,
+:not(#gc-clear) form,
+:not(#gc-clear) input,
+:not(#gc-clear) label,
+:not(#gc-clear) legend,
+:not(#gc-clear) meter,
+:not(#gc-clear) optgroup,
+:not(#gc-clear) option,
+:not(#gc-clear) output,
+:not(#gc-clear) progress,
+:not(#gc-clear) select,
+:not(#gc-clear) textarea {
 	--gc-outline-color: var(--gc-forms-color);
-	--gc-background: var(--background-light);
+}
+/* Interactive elements */
+:not(#gc-clear) details,
+:not(#gc-clear) dialog,
+:not(#gc-clear) menu,
+:not(#gc-clear) menuitem,
+:not(#gc-clear) summary {
+	--gc-outline-color: var(--gc-interactive-color);
 }
 /* Forms */
-:not(#\9) button {
+:not(#gc-clear) button {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) datalist {
+:not(#gc-clear) datalist {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) fieldset {
+:not(#gc-clear) fieldset {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) form {
+:not(#gc-clear) form {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) input {
+:not(#gc-clear) input {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) label {
+:not(#gc-clear) label {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) legend {
+:not(#gc-clear) legend {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) meter {
+:not(#gc-clear) meter {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) optgroup {
+:not(#gc-clear) optgroup {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) option {
+:not(#gc-clear) option {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) output {
+:not(#gc-clear) output {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) progress {
+:not(#gc-clear) progress {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) select {
+:not(#gc-clear) select {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
 }
-:not(#\9) textarea {
+:not(#gc-clear) textarea {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+/* Interactive elements */
+:not(#gc-clear) details {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) dialog {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) menu {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) menuitem {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+:not(#gc-clear) summary {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);

@@ -10,7 +10,6 @@
 .editor-styles-wrapper thead,
 .editor-styles-wrapper tr {
 	--gc-outline-color: var(--gc-table-color);
-	--gc-background: var(--background-lighter);
 }
 /* Table content */
 .editor-styles-wrapper caption {

@@ -5,8 +5,6 @@
 	--gc-shadow-depth: 1rem;
 	--gc-shadow-color: rgba(0, 43, 54, 0.6);
 	--gc-box-shadow: 0 0 var(--gc-shadow-depth) var(--gc-shadow-color);
-	--gc-background: var(--background-light);
-	--gc-background-a: rgba(238, 232, 213, 0.1);
 
 	/* Solorized colors. MIT https://ethanschoonover.com/solarized/ */
 	--solar-base03:    #002b36;
@@ -29,12 +27,12 @@
 	/* Color by section */
 	--outline-alpha: 80%;
 	--gc-content-color: rgba(38, 139, 210, 0.8);
-	--gc-forms-color: rgba(42, 161, 152, 0.8);
+	--gc-text-color: rgba(42, 161, 152, 0.8);
 	--gc-media-color: rgba(220, 50, 47, 0.8);
-	--gc-inline-color: rgba(203, 75, 22, 0.8);
-	--gc-interactive-color: rgba(133, 153, 0, 0.8);
+	--gc-inline-color: rgba(133, 153, 0, 0.8);
 	--gc-table-color: rgba(108, 113, 196, 0.8);
-	--gc-text-color: rgba(181, 137, 0, 0.8);
+	--gc-forms-color: rgba(181, 137, 0, 0.8);
+	--gc-interactive-color: rgba(203, 75, 22, 0.8);
 
 	--background-dark: var(--solar-base02);
 	--background-darker: var(--solar-base03);
@@ -55,5 +53,4 @@
 .editor-styles-wrapper #wpadminbar#wpadminbar {
 	--gc-outline-width: 0;
 	--gc-box-shadow: none;
-	--gc-background-lg: none;
 }

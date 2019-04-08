@@ -14,7 +14,15 @@ progress,
 select,
 textarea {
 	--gc-outline-color: var(--gc-forms-color);
-	--gc-background: var(--background-light);
+}
+
+/* Interactive elements */
+details,
+dialog,
+menu,
+menuitem,
+summary {
+	--gc-outline-color: var(--gc-interactive-color);
 }
 
 /* Forms */
@@ -97,6 +105,38 @@ select {
 	outline-color: var(--gc-outline-color);
 }
 textarea {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+
+/* Interactive elements */
+details {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+dialog {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+menu {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+menuitem {
+	box-shadow: var(--gc-box-shadow);
+	outline-width: var(--gc-outline-width);
+	outline-style: var(--gc-outline-style);
+	outline-color: var(--gc-outline-color);
+}
+summary {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);

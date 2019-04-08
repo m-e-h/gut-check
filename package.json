@@ -11,6 +11,7 @@
 		"css:editor": "postcss src/css --dir dist/editor --env editor"
 	},
 	"devDependencies": {
+		"browserslist": "^4.5.4",
 		"eslint": "^5.15.3",
 		"eslint-config-wordpress": "^2.0.0",
 		"postcss-cli": "^6.1.2",

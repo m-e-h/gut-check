@@ -27,6 +27,9 @@ require_once GC_INCLUDES . 'functions-scripts.php';
 require_once GC_INCLUDES . 'functions-helpers.php';
 require_once GC_INCLUDES . 'functions-customize.php';
 
-add_action( 'after_setup_theme', function() {
-	\GutCheck\setup();
-});
+// add_action( 'after_setup_theme', function() {
+// 	\GutCheck\setup();
+// });
+
+Customize\bootstrap();
+Scripts\bootstrap();

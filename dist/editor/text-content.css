@@ -2,7 +2,6 @@
 .editor-styles-wrapper blockquote,
 .editor-styles-wrapper dd,
 .editor-styles-wrapper dir,
-.editor-styles-wrapper div:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]),
 .editor-styles-wrapper dl,
 .editor-styles-wrapper dt,
 .editor-styles-wrapper figcaption,
@@ -31,12 +30,6 @@
 	outline-color: var(--gc-outline-color);
 }
 .editor-styles-wrapper dir {
-	box-shadow: var(--gc-box-shadow);
-	outline-width: var(--gc-outline-width);
-	outline-style: var(--gc-outline-style);
-	outline-color: var(--gc-outline-color);
-}
-.editor-styles-wrapper div:not([class*="block-editor-"]):not([class*="editor-block-"]):not([class^="components-"]):not([class^="editor-"]):not([class^="block-"]):not([aria-owns]):not([id^="mceu_"]) {
 	box-shadow: var(--gc-box-shadow);
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
@@ -107,8 +100,4 @@
 	outline-width: var(--gc-outline-width);
 	outline-style: var(--gc-outline-style);
 	outline-color: var(--gc-outline-color);
-}
-.editor-styles-wrapper :not(#\9) div:not([class]),
-.editor-styles-wrapper span:not([class]) {
-	--gc-outline-color: var(--gray-light);
 }

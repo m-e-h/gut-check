@@ -10,7 +10,6 @@
 .editor-styles-wrapper object,
 .editor-styles-wrapper picture {
 	--gc-outline-color: var(--gc-media-color);
-	--gc-background: var(--background-lighter);
 }
 /* Media and embedded */
 .editor-styles-wrapper area {

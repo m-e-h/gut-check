@@ -5,8 +5,6 @@
 	--gc-shadow-depth: 1rem;
 	--gc-shadow-color: color-mod(var(--background-darker) a(60%));
 	--gc-box-shadow: 0 0 var(--gc-shadow-depth) var(--gc-shadow-color);
-	--gc-background: var(--background-light);
-	--gc-background-a: color-mod(var(--gc-background) a(10%));
 
 	/* Solorized colors. MIT https://ethanschoonover.com/solarized/ */
 	--solar-base03:    #002b36;
@@ -29,12 +27,12 @@
 	/* Color by section */
 	--outline-alpha: 80%;
 	--gc-content-color: color-mod(var(--solar-blue) a(var(--outline-alpha)));
-	--gc-forms-color: color-mod(var(--solar-cyan) a(var(--outline-alpha)));
+	--gc-text-color: color-mod(var(--solar-cyan) a(var(--outline-alpha)));
 	--gc-media-color: color-mod(var(--solar-red) a(var(--outline-alpha)));
-	--gc-inline-color: color-mod(var(--solar-orange) a(var(--outline-alpha)));
-	--gc-interactive-color: color-mod(var(--solar-green) a(var(--outline-alpha)));
+	--gc-inline-color: color-mod(var(--solar-green) a(var(--outline-alpha)));
 	--gc-table-color: color-mod(var(--solar-violet) a(var(--outline-alpha)));
-	--gc-text-color: color-mod(var(--solar-yellow) a(var(--outline-alpha)));
+	--gc-forms-color: color-mod(var(--solar-yellow) a(var(--outline-alpha)));
+	--gc-interactive-color: color-mod(var(--solar-orange) a(var(--outline-alpha)));
 
 	--background-dark: var(--solar-base02);
 	--background-darker: var(--solar-base03);
@@ -55,5 +53,4 @@
 #wpadminbar#wpadminbar {
 	--gc-outline-width: 0;
 	--gc-box-shadow: none;
-	--gc-background-lg: none;
 }
