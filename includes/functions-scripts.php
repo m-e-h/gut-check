@@ -27,11 +27,6 @@ function load_front_css() {
 			wp_enqueue_style( 'content_sectioning', GC_ASSETS . 'style/content-sectioning.css' );
 		}
 
-		if ( get_theme_mod( 'embedded_content', 1 ) ) {
-
-			wp_enqueue_style( 'embedded_content', GC_ASSETS . 'style/embedded-content.css' );
-		}
-
 		if ( get_theme_mod( 'form_elements', 1 ) ) {
 
 			wp_enqueue_style( 'form_elements', GC_ASSETS . 'style/forms.css' );
@@ -70,11 +65,6 @@ function load_editor_css() {
 			wp_enqueue_style( 'e-content_sectioning', GC_ASSETS . 'style/content-sectioning.css' );
 		}
 
-		if ( get_theme_mod( 'embedded_content', 1 ) ) {
-
-			wp_enqueue_style( 'e-embedded_content', GC_ASSETS . 'style/embedded-content.css' );
-		}
-
 		if ( get_theme_mod( 'form_elements', 1 ) ) {
 
 			wp_enqueue_style( 'e-form_elements', GC_ASSETS . 'style/forms.css' );
@@ -103,11 +93,6 @@ function load_editor_css() {
 		if ( get_theme_mod( 'content_sectioning', 1 ) ) {
 
 			wp_enqueue_style( 'content_sectioning', GC_ASSETS . 'editor/content-sectioning.css' );
-		}
-
-		if ( get_theme_mod( 'embedded_content', 1 ) ) {
-
-			wp_enqueue_style( 'embedded_content', GC_ASSETS . 'editor/embedded-content.css' );
 		}
 
 		if ( get_theme_mod( 'form_elements', 1 ) ) {
