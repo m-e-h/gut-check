@@ -3,7 +3,7 @@
  * Plugin Name: Gut Check
  * Plugin URI:  https://github.com/m-e-h/gut-check
  * Description: CSS debugger
- * Version:     1.0.0
+ * Version:     1.1.0
  * Author:      Marty Helmick
  * Author URI:  https://github.com/m-e-h
  * Text Domain: gut-check
@@ -17,8 +17,6 @@ namespace GutCheck;
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-
-define( 'GUT_CHECK_VERSION', '1.0.0' );
 
 define( 'GC_INCLUDES', plugin_dir_path( __FILE__ ) . 'includes/' );
 define( 'GC_ASSETS', plugin_dir_url( __FILE__ ) . 'dist/' );
